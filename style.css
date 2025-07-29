@@ -270,3 +270,19 @@ form button.contact-link {
     color: #fff;
     transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+    .navbar.scrolled {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem; 
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
