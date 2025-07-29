@@ -285,4 +285,19 @@ form button.contact-link {
         padding-left: 0;
         padding-right: 0;
     }
+    #home .text-md-start {
+        text-align: center !important;
+    }
+
+    #home .d-flex {
+        justify-content: center !important;
+    }
+
+    .footer-section .text-md-start {
+        text-align: center;
+    }
+    
+    .footer-socials.text-md-end {
+        text-align: center !important;
+    }
 }
