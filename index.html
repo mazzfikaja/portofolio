@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Zulfikri Ali Achmadi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar">
+
+    <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#home">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start" data-aos="fade-right">
+                        <h1 class="display-3 fw-bold">Zulfikri Ali Achmadi.</h1>
+                        <p class="lead my-4">FullStack Developer</p>
+                       <div class="d-flex justify-content-center justify-content-md-start gap-2">
+                            <a href="#projects" class="contact-link"><i class="bi bi-download"></i>Project Selesai</a>
+                            <button type="button" class="contact-link" data-bs-toggle="modal" data-bs-target="#cv-modal"><i class="bi bi-envelope-fill"></i> Download CV</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mt-5 mt-md-0" data-aos="fade-left" data-aos-delay="200">
+                        <img src="asset/profile.jpg" class="img-fluid hero-image" alt="Foto Profil Zulfikri">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <div class="row mb-5" data-aos="fade-up">
+                    <div class="col-12 text-center"><h2 class="section-title">About Me</h2></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-center" data-aos="fade-right" data-aos-delay="200">
+                        <img src="asset/profile2.jpg" class="img-fluid about-image" alt="Tentang Saya">
+                    </div>
+                    <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="400">
+                        <p class="lead">Mahasiswa semester 2 di jurusan Teknik Informatika, saya memiliki ketertarikan dengan pembuatan web, khususnya di bagian backend. Aku sering merasa tertantang dengan segala sesuatu tentang web.</p>
+                        <div class="row mt-4">
+                            <div class="col-md-6"><div class="about-box"><i class="bi bi-star-fill"></i><h5 class="mt-2">Pengalaman</h5><p class="text-muted">1+ Tahun Belajar & Proyek</p></div></div>
+                            <div class="col-md-6"><div class="about-box"><i class="bi bi-collection-fill"></i><h5 class="mt-2">Proyek Selesai</h5><p class="text-muted">5+ Proyek</p></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="row mb-5" data-aos="fade-up"><div class="col-12 text-center"><h2 class="section-title">Skills</h2></div></div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100"><div class="skill-box"><i class="bi bi-filetype-html"></i><p>HTML</p></div></div>
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200"><div class="skill-box"><i class="bi bi-filetype-css"></i><p>CSS</p></div></div>
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300"><div class="skill-box"><i class="bi bi-filetype-js"></i><p>JavaScript</p></div></div>
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="400"><div class="skill-box"><i class="bi bi-bootstrap-fill"></i><p>Bootstrap</p></div></div>
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="500"><div class="skill-box"><i class="bi bi-filetype-php"></i><p>PHP</p></div></div>
+                    <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="600"><div class="skill-box"><i class="bi bi-box-seam"></i><p>Laravel</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+             <div class="container">
+                <div class="row mb-5" data-aos="fade-up"><div class="col-12 text-center"><h2 class="section-title">Projects</h2></div></div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-card">
+                            <div class="project-image-wrapper"><img src="asset/cashflow.JPG" class="project-image" alt="Proyek Cashflow"></div>
+                            <div class="project-body">
+                                <h5 class="project-title">Web Aplikasi Cashflow</h5>
+                                <p class="project-description">Sebuah web yang membantu anda untuk merekap semua jalur masuk dan keluar uang anda.</p>
+                                <div class="project-tags"><span>HTML</span><span>CSS</span><span>PHP</span></div>
+                                <div class="project-links"><a href="https://moneyowl.my.id/" target="_blank">Live Demo <i class="bi bi-box-arrow-up-right"></i></a></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-card">
+                            <div class="project-image-wrapper"><img src="asset/perpustakaan.JPG" class="project-image" alt="Proyek Dashboard"></div>
+                            <div class="project-body">
+                                <h5 class="project-title">Dashboard Admin</h5>
+                                <p class="project-description">Dashboard admin fungsional yang dibuat dengan framework Laravel untuk manajemen data.</p>
+                                <div class="project-tags"><span>Laravel</span><span>Bootstrap</span></div>
+                                <div class="project-links"><a href="https://mazzfikaja.github.io/adminperpustakaan/" target="_blank">Live Demo <i class="bi bi-box-arrow-up-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8 text-center">
+                        <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="d-flex flex-wrap gap-2 mb-4" data-aos="fade-right" data-aos-delay="200">
+                            <a href="mailto:zulfikrialiachmadi@gmail.com" class="contact-link"><i class="bi bi-envelope me-2"></i> Contact Me</a>
+                        </div>
+                        <div data-aos="fade-right" data-aos-delay="400">
+                            <a href="https://github.com/mazzfikaja" target="_blank" class="contact-link">
+                                <i class="bi bi-github fs-4"></i>
+                                <div>
+                                    <h6>GitHub</h6>
+                                    <small>Jelajahi kode & proyek saya</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </a>
+                            <a href="https://wa.me/+6285291815507" target="_blank" class="contact-link">
+                                <i class="bi bi-whatsapp fs-4"></i>
+                                <div>
+                                    <h6>whatsapp</h6>
+                                    <small>Mari terhubung secara profesional</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </a>
+                            <a href="https://instagram.com/mazzfikajaa" target="_blank" class="contact-link">
+                                <i class="bi bi-instagram fs-4"></i>
+                                <div>
+                                    <h6>Instagram</h6>
+                                    <small>Keseharian & update terbaru</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                        <div class="form-wrapper p-4 rounded-3">
+                            <h5 class="mb-3">Kirim Saya Pesan</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nama Anda">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email Anda">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="4" placeholder="Pesan Anda"></textarea>
+                                </div>
+                                <button type="submit" class="contact-link">Kirim <i class="bi bi-send ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section py-4">
+         <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="text-center text-md-start"><p class="mb-2 mb-md-0">&copy; 2025 Zulfikri Ali Achmadi. All Rights Reserved.</p></div>
+                <div class="footer-socials text-center text-md-end">
+                    <a href="https://github.com/mazzfikajaa" target="_blank" class="social-icon-footer" title="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/mazzfikaja" target="_blank" class="social-icon-footer" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="mailto:zulfikrialiachmadi@gmail.com" class="social-icon-footer" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="cv-modal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center p-4">
+                <div class="modal-body">
+                    <i class="bi bi-info-circle display-1 text-primary"></i>
+                    <h3 class="my-3">Belum Tersedia</h3>
+                    <p class="text-muted">
+                    CV Masih dalam tahap penegerjaan!</p>
+                <button type="button" class="btn btn-dark mt-3 px-4" data-bs-dismiss="modal">Oke</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
