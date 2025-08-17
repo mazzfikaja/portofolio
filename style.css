@@ -116,6 +116,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
     font-weight: 500;
 }
+.skill-box img.skill-logo {
+    width: 60px; 
+    height: 60px; 
+}
 
 .project-card {
     background-color: transparent;
